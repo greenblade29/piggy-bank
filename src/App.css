@@ -36,3 +36,121 @@
     transform: rotate(360deg);
   }
 }
+
+.starting{
+  font-size: 1.5rem;
+  color: #FFC6D3;
+  margin-top: 2rem;
+}
+
+.piggy-image{
+  width: 20rem;
+  margin-top: -2rem;
+}
+
+.values{
+  background-color: #F3ECB0;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 0.5rem;
+}
+
+.myBudget{
+  background-color: #BAD1C2;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.remaining-button-pos{
+  background-color: #BAD1C2;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.remaining-button-neg{
+  background-color: #B61919;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.spent-button-pos{
+  background-color: #BAD1C2;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.spent-button-neg{
+  background-color: #F0A500;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.badge{
+  background-color: #3A4F7A;
+  vertical-align: middle;
+  margin: 1rem;
+  color: #FFC6D3;
+}
+
+.list-group{
+   margin: 0.5rem;
+}
+
+.list-group-item{
+  background-color: #E98EAD;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  font-size: large;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.delete-button{
+  vertical-align: middle;
+}
+
+.add-items{
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #3A4F7A;
+  color: white;
+  border-radius: 1rem;
+  text-align: left;
+}
+
+.display-items{
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: left;
+}
+
+.quote-style{
+  font-style: italic;
+  font-size: medium;
+  margin: 2rem;
+}
+
+.budget-input{
+  text-align: center;
+  line-height: normal;
+  border: none;
+  border-radius: 0.15rem;
+}
+
+.footer{
+  font-size: medium;
+  color: #FFC6D3;
+  margin-top: 1rem;
+  width: 100%;
+}
