@@ -16,6 +16,7 @@ function App() {
     async function updateQuote() {
       try {
         const MY_API_KEY= process.env.REACT_APP_API_KEY;
+        console.log(MY_API_KEY);
         const response = await fetch("https://api.api-ninjas.com/v1/quotes?category=money",
          {headers: {'X-Api-Key': MY_API_KEY}}
         );
